@@ -1,5 +1,8 @@
-<h1>Welcome</h1>
+<h1>Welcome <%=current_user.username%></h1>
 
 <p>We are currently working on your account.</p>
+<p>Your current balance is: <%=current_user.balance%></p>
+<p><a href="/deposits/new">Make a new deposit</a></p>
+<p><a href="/withdrawals/new">Withdraw money from your account</a></p>
 
 <p><a href="/logout">Log Out</a></p>
